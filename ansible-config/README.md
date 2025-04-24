@@ -164,6 +164,7 @@ require_once(ABSPATH . 'wp-settings.php');
 
 This will configure your WordPress server and MariaDB server, install all dependencies, and set up the WordPress instance.
 
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

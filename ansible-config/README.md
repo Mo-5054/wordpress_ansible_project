@@ -125,7 +125,7 @@ Tasks:
 
 This is a Jinja2 template that configures WordPress to use the MariaDB database and user credentials.
 
-```php
+```php code
 <?php
 define('DB_NAME', 'wordpress');
 define('DB_USER', 'zozz');
@@ -143,7 +143,7 @@ if ( !defined('ABSPATH') )
 require_once(ABSPATH . 'wp-settings.php');
 ```
 
-## How to Run
+## How to Run 
 
 1. Clone the repository:
 
@@ -167,3 +167,5 @@ This will configure your WordPress server and MariaDB server, install all depend
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
